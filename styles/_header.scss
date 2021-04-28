@@ -1,0 +1,53 @@
+.navbar {
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-brand {
+        font-size: 4rem;
+        text-transform: uppercase;
+    }
+    &-genger {
+        width: 250px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    &-genger ul {
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 60px;
+        margin: 0;
+        padding: 0;
+        padding-top: 15px;
+    }
+    &-genger ul a {
+        font-size: 2.5rem;
+    }
+}
+
+.navbar a:hover {
+    color: #00cba6;
+}
+
+.navbar .container {
+    width: 190px;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    justify-content: center;
+}
+
+.navbar .container .btn {
+    background-color: #777777;
+    color: $neutral-color2;
+}
+
+.navbar .container .btn:hover {
+    background-color: #00cba6;
+    color: $neutral-color2;
+}
