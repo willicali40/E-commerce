@@ -17,6 +17,10 @@ a {
   color: black;
 }
 
+.header {
+  border-bottom: 1px solid gray;
+}
+
 .navbar {
   width: 100%;
   height: 85px;
@@ -69,4 +73,17 @@ a {
 .navbar .container .btn:hover {
   background-color: #00cba6;
   color: white;
+}
+
+@media (max-width: 700px) {
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar-genger {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
