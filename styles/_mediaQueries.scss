@@ -1,11 +1,28 @@
 @media (max-width: 700px) {
+    .header {
+        border: none;
+    }
     .navbar {
+        height: auto;
         display: block;
         text-align: center;
+    }
+    .navbar-brand {
+        border-bottom: 1px solid gray;
     }
     .navbar-genger {
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+    }
+    .container-suscription h5 {
+        margin: 10px auto;
+    }
+    .container-suscription p {
+        margin: 5px auto;
+        font-size: 1.2rem;
+    }
+    .form {
+        font-size: 1.2rem;
     }
 }

@@ -75,15 +75,144 @@ a {
   color: white;
 }
 
+.container-cards {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.cards {
+  width: 200px;
+  height: 80px;
+  background-color: #dcd7d7b5;
+  margin: 10px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards svg {
+  margin-left: 10px;
+}
+
+.cards p {
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.card {
+  margin: 5px;
+  border: none;
+}
+
+.card-body {
+  display: inline-grid;
+}
+
+.card-body h5 {
+  justify-self: center;
+}
+
+.card-body a {
+  margin-top: 10px;
+  background-color: black;
+  border: none;
+}
+
+.card-body a:hover {
+  background-color: #00cba6;
+  color: white;
+  border: none;
+}
+
+.container-products {
+  margin-bottom: 25px;
+}
+
+.container-suscription {
+  margin-top: 25px;
+  padding: 5px;
+  border-top: 1px solid gray;
+  display: grid;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.container-suscription h5 {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  margin-left: 280px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.container-suscription p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+  font-size: 1.6rem;
+}
+
+.email {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-dark:hover {
+  background-color: #00cba6;
+  color: white;
+  border: none;
+}
+
+.form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.form a {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.form a:hover {
+  color: #00cba6;
+}
+
 @media (max-width: 700px) {
+  .header {
+    border: none;
+  }
+
   .navbar {
+    height: auto;
     display: block;
     text-align: center;
+  }
+
+  .navbar-brand {
+    border-bottom: 1px solid gray;
   }
 
   .navbar-genger {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .container-suscription h5 {
+    margin: 10px auto;
+  }
+
+  .container-suscription p {
+    margin: 5px auto;
+    font-size: 1.2rem;
+  }
+
+  .form {
+    font-size: 1.2rem;
   }
 }

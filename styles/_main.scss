@@ -1,0 +1,55 @@
+.container-cards {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.cards {
+    width: 200px;
+    height: 80px;
+    background-color: $neutral-color3;
+    margin: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards svg {
+    margin-left: 10px;
+}
+
+.cards p {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.card {
+    margin: 5px;
+    border: none;
+}
+
+.card-body {
+    display: inline-grid;
+}
+
+.card-body h5 {
+    justify-self: center;
+}
+
+.card-body a {
+    margin-top: 10px;
+    background-color: $neutral-color1;
+    border: none;
+}
+
+.card-body a:hover {
+    background-color: $hover-color;
+    color: $neutral-color2;
+    border: none;
+}
+
+.container-products {
+    margin-bottom: 25px;
+}
