@@ -76,6 +76,11 @@ a {
   color: white;
 }
 
+#brand a:hover {
+  color: black;
+  border: none;
+}
+
 .container-cards {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -183,6 +188,48 @@ a {
   color: #00cba6;
 }
 
+.footer-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-top: 1px solid gray;
+}
+
+.box {
+  width: auto;
+  height: auto;
+  margin: 15px auto;
+  padding: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.box h5 {
+  font-size: 1.8rem;
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.box ul {
+  margin: 10px 0;
+  padding: 0;
+}
+
+.box ul a {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.box span {
+  text-transform: uppercase;
+}
+
+.box ul a:hover {
+  color: #00cba6;
+  border-bottom: 1px solid #00cba6;
+}
+
 @media (max-width: 700px) {
   .header {
     border: none;
@@ -228,6 +275,18 @@ a {
   }
 
   .form {
+    font-size: 1.2rem;
+  }
+
+  .footer-container {
+    display: inline-flex;
+  }
+
+  .footer-container h5 {
+    font-size: 1.5rem;
+  }
+
+  .footer-container ul a {
     font-size: 1.2rem;
   }
 }

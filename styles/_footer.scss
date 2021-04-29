@@ -1,0 +1,41 @@
+.footer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: 1px solid gray;
+}
+
+.box {
+    width: auto;
+    height: auto;
+    margin: 15px auto;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.box h5 {
+    font-size: 1.8rem;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.box ul {
+    margin: 10px 0;
+    padding: 0;
+}
+
+.box ul a {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.box span {
+    text-transform: uppercase;
+}
+
+.box ul a:hover {
+    color: $hover-color;
+    border-bottom: 1px solid #00cba6;
+}

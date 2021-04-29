@@ -55,3 +55,8 @@
     background-color: $hover-color;
     color: $neutral-color2;
 }
+
+#brand a:hover {
+    color: $neutral-color1;
+    border: none;
+}
