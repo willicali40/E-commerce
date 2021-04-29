@@ -197,14 +197,27 @@ a {
     border-bottom: 1px solid gray;
   }
 
+  .navbar-brand a {
+    font-size: 2.5rem;
+  }
+
   .navbar-genger {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
   }
 
+  .navbar-genger ul a {
+    font-size: 1.5rem;
+  }
+
+  .cards p {
+    font-size: 1rem;
+  }
+
   .container-suscription h5 {
     margin: 10px auto;
+    font-size: 1.5rem;
   }
 
   .container-suscription p {
