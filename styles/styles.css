@@ -128,6 +128,10 @@ a {
   border: none;
 }
 
+.card img {
+  height: 240px;
+}
+
 .card-body a:hover {
   background-color: #00cba6;
   color: white;
@@ -186,6 +190,36 @@ a {
 
 .form a:hover {
   color: #00cba6;
+}
+
+.header-pages {
+  border-bottom: 1px solid gray;
+}
+
+.women-products {
+  margin-top: 90px;
+}
+
+.card-box {
+  margin-top: 15px;
+}
+
+.card-box img {
+  height: 200px;
+}
+
+.card-box h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-box p {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn:hover {
+  background-color: #00cba6;
 }
 
 .footer-container {

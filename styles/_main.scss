@@ -44,6 +44,10 @@
     border: none;
 }
 
+.card img {
+    height: 240px;
+}
+
 .card-body a:hover {
     background-color: $hover-color;
     color: $neutral-color2;

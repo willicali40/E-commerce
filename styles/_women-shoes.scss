@@ -1,0 +1,23 @@
+.header-pages {
+    border-bottom: 1px solid gray;
+}
+.women-products {
+    margin-top: 90px;
+}
+.card-box {
+    margin-top: 15px;
+}
+.card-box img {
+    height: 200px;
+}
+.card-box h5 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.card-box p {
+    font-family: 'Poppins', sans-serif;
+}
+.btn:hover {
+    background-color: $hover-color;
+}
