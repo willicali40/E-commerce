@@ -354,7 +354,9 @@ a {
 }
 @media (max-width: 320px) {
   .card img {
-    height: 80px;
+    width: 150px;
+    height: 180px;
+    margin: 0 auto;
   }
 
   .women-shoes img {
