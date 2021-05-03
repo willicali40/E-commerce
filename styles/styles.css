@@ -298,6 +298,34 @@ a {
     font-size: 1rem;
   }
 
+  .card img {
+    height: 120px;
+  }
+
+  .women-shoes img {
+    height: 200px;
+  }
+
+  .women-jeans img {
+    height: 220px;
+  }
+
+  .men-shoes img {
+    height: 220px;
+  }
+
+  .men-jeans img {
+    height: 220px;
+  }
+
+  .men-t-shirts img {
+    height: 220px;
+  }
+
+  .men-accesories img {
+    height: 190px;
+  }
+
   .container-suscription h5 {
     margin: 10px auto;
     font-size: 1.5rem;
