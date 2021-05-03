@@ -68,9 +68,9 @@
     }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 320px) {
     .card img {
-        height: 120px;
+        height: 80px;
     }
     .women-shoes img {
         height: 200px;
@@ -78,14 +78,17 @@
     .women-jeans img {
         height: 220px;
     }
+    .women-t-shirts img {
+        height: 110px;
+    }
     .men-shoes img {
-        height: 220px;
+        height: 250px;
     }
     .men-jeans img {
-        height: 220px;
+        height: 250px;
     }
     .men-t-shirts img {
-        height: 220px;
+        height: 250px;
     }
     .men-accesories img {
         height: 190px;
