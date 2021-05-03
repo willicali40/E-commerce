@@ -19,8 +19,8 @@
             </div>
             <div class="navbar-genger">
                 <ul>
-                    <li><a href="#">Mujer</a></li>
-                    <li><a href="#">Hombre</a></li>
+                    <li><a href="#main">Productos</a></li>
+                    <li><a href="#suscription">Suscripción</a></li>
                 </ul>
             </div>
             <div class="container d-none  d-md-block">
@@ -38,14 +38,14 @@
     <!-- /header -->
 
       <!-- main -->
-      <main class="container">
+      <main class="container" id="main">
         <div class="row justify-content-center women-products">
             <div class="card men-t-shirts card-box" style="width: 18rem;">
                 <img src="./assets/img/products/pexels-andres-ayrton-6551144.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Camisetas</h5>
                   <p class="card-text"> Este producto puede provenir de Colombia, China, India, o Bangladés entre otros, para validar el país de origen específico consulte la etiqueta con la que cuenta el producto físico.</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
+                  <a href="#buy" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
               <div class="card men-t-shirts card-box" style="width: 18rem;">
@@ -53,7 +53,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Camisetas</h5>
                   <p class="card-text"> Este producto puede provenir de Colombia, China, India, o Bangladés entre otros, para validar el país de origen específico consulte la etiqueta con la que cuenta el producto físico.</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
+                  <a href="#buy" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
               <div class="card men-t-shirts card-box" style="width: 18rem;">
@@ -61,7 +61,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Camisetas</h5>
                   <p class="card-text"> Este producto puede provenir de Colombia, China, India, o Bangladés entre otros, para validar el país de origen específico consulte la etiqueta con la que cuenta el producto físico.</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
+                  <a href="#buy" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
               <div class="card men-t-shirts card-box" style="width: 18rem;">
@@ -69,7 +69,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Camisetas</h5>
                   <p class="card-text"> Este producto puede provenir de Colombia, China, India, o Bangladés entre otros, para validar el país de origen específico consulte la etiqueta con la que cuenta el producto físico.</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
+                  <a href="#buy" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
           </div>
@@ -79,7 +79,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Camisetas</h5>
                   <p class="card-text"> Este producto puede provenir de Colombia, China, India, o Bangladés entre otros, para validar el país de origen específico consulte la etiqueta con la que cuenta el producto físico.</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
+                  <a href="#buy" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
               <div class="card men-t-shirts card-box" style="width: 18rem;">
@@ -87,7 +87,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Camisetas</h5>
                   <p class="card-text"> Este producto puede provenir de Colombia, China, India, o Bangladés entre otros, para validar el país de origen específico consulte la etiqueta con la que cuenta el producto físico.</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
+                  <a href="#buy" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
               <div class="card men-t-shirts card-box" style="width: 18rem;">
@@ -95,7 +95,7 @@
                 <div class="card-body">
                   <h5 class="card-title">Camisetas</h5>
                   <p class="card-text"> Este producto puede provenir de Colombia, China, India, o Bangladés entre otros, para validar el país de origen específico consulte la etiqueta con la que cuenta el producto físico.</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
+                  <a href="#buy" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
               <div class="card men-t-shirts card-box" style="width: 18rem;">
@@ -103,15 +103,31 @@
                 <div class="card-body">
                   <h5 class="card-title">Camisetas</h5>
                   <p class="card-text"> Este producto puede provenir de Colombia, China, India, o Bangladés entre otros, para validar el país de origen específico consulte la etiqueta con la que cuenta el producto físico.</p>
-                  <a href="#" class="btn btn-primary">Comprar</a>
+                  <a href="#buy" class="btn btn-primary">Comprar</a>
                 </div>
               </div>
           </div>
       </main>
       <!-- /main -->
 
+      <!-- compra -->
+      <div class="container">
+        <form id="buy">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">No comparimos tu infomacion personal.</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <button type="submit" class="btn btn-dark">Ingresar</button>
+        </form></div>
+      <!-- /compra -->
+
       <!-- suscription -->
-      <div class="container container-suscription">
+      <div class="container container-suscription" id="suscription">
             <h5>Suscríbete al Newsletter</h5>
             <p>Sé el primero en recibir nuestras últimas tendencias, promociones y más!</p>
 
